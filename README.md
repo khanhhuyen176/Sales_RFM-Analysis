@@ -1,4 +1,4 @@
-<img width="352" height="313" alt="image" src="https://github.com/user-attachments/assets/48c72e82-5174-494e-8412-b563ff159346" /># Sales_RFM-Analysis
+# Sales_RFM-Analysis
 ## 1. Mục tiêu dự án
 Dự án sử dụng phân tích RFM (Recency - Frequency - Monetary) để phân khúc khách hàng dựa trên hành vi mua hàng, từ đó xây dựng các chiến lược marketing cá nhân hóa giúp doanh nghiệp tăng hiệu quả giữ chân khách hàng, cải thiện doanh thu và tối ưu chi phí tiếp thị.
 
@@ -9,18 +9,7 @@ Sau khi xử lý dữ liệu (làm sạch, phân cụm RFM), còn lại 92 khác
 ## 3. Phân khúc khách hàng theo RFM
 Khách hàng được chia thành 11 nhóm chính như sau:
 
-Phân khúc	Số lượng khách hàng
-Hibernating customers	21
-Champions	15
-New Customers	9
-At Risk	11
-Loyal	8
-Lost customers	7
-Potential Loyalist	11
-Cannot Lose Them	4
-Promising	2
-Need Attention	3
-About To Sleep	1
+<img width="352" height="313" alt="image" src="https://github.com/user-attachments/assets/48c72e82-5174-494e-8412-b563ff159346" />
 
 ## 4. Chiến lược & Thông điệp Marketing theo từng nhóm
 Phân khúc khách hàng Champion: Tri ân, giữ chân bằng ưu đãi VIP, sản phẩm mới đầu tiên
