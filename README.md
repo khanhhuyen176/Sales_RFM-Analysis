@@ -13,7 +13,11 @@ Khách hàng được chia thành 11 nhóm chính như sau:
 
 ## 4. Chiến lược & Thông điệp Marketing theo từng nhóm
 Phân khúc khách hàng Champion: Tri ân, giữ chân bằng ưu đãi VIP, sản phẩm mới đầu tiên
+
 Phân khúc khách hàng Loyal Customers và Potential Loyalist: Gửi mã giảm giá/khuyến mãi nhẹ để thúc đẩy quay lại mua lần nữa, mời giới thiệu bạn bè
+
 Phân khúc khách hàng Recent Customers và Promising: Gửi gợi ý sản phẩm, upsell nhẹ
+
 Phân khúc khách hàng Customers Needing Attention và At Risk: Gửi email thăm dò lý do ngưng mua hàng, khuyến mãi nhẹ
+
 Phân khúc khách hàng About To Sleep, Hibernating và Lost: Cảnh báo khách sắp rời bỏ – giảm giá mạnh, chăm sóc lại. Gửi email re-engagement, khảo sát lý do ngưng
