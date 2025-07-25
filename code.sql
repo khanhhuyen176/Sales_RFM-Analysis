@@ -60,7 +60,7 @@ CREATE TABLE segment_score
 AS(
 SELECT segment, REGEXP_SPLIT_TO_TABLE(scores, ', ')
 FROM score
-)
+);
 	
 -- 2. Data Cleaning -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- NULL values
@@ -120,9 +120,19 @@ FROM B_1
 SELECT 	customername,
 		CONCAT(r,f,m) as RFM
 FROM B_2
-)
+),
 -- Step4: Segmentation
-SELECT	a.customername, a.rfm, b.segment
-FROM B_3 as a
-INNER JOIN segment_score as b
-	ON a.rfm = b.scores
+Segmented AS (
+    SELECT a.customername, a.rfm, b.segment
+    FROM B_3 AS a
+    INNER JOIN (
+        SELECT segment, REGEXP_SPLIT_TO_TABLE(scores, ', ') AS rfm_score
+        FROM score
+    ) AS b
+    ON a.rfm = b.rfm_score
+)
+-- Final step: Count the number of customers per segment
+SELECT segment, COUNT(*) AS customer_count
+FROM Segmented
+GROUP BY segment
+ORDER BY customer_count DESC;
