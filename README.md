@@ -4,6 +4,7 @@ Dự án sử dụng phân tích RFM (Recency - Frequency - Monetary) để phâ
 
 ## 2. Dữ liệu đầu vào
 Dữ liệu gốc gồm hơn 2400 dòng giao dịch từ datset, với các thông tin chính như:thông tin đơn hàng, sản phẩm, khác hàng, và địa chỉ
+
 Sau khi xử lý dữ liệu (làm sạch, phân cụm RFM), còn lại 92 khách hàng Phân khúc khách hàng theo RFM.
 
 ## 3. Phân khúc khách hàng theo RFM
