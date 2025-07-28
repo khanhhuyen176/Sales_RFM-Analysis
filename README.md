@@ -1,6 +1,6 @@
 # Sales_RFM-Analysis
 ## 1. Mục tiêu dự án
-Dự án sử dụng phân tích RFM (Recency - Frequency - Monetary) để phân khúc khách hàng dựa trên hành vi mua hàng, từ đó xây dựng các chiến lược marketing cá nhân hóa giúp doanh nghiệp tăng hiệu quả giữ chân khách hàng, cải thiện doanh thu và tối ưu chi phí tiếp thị.
+Dự án sử dụng phân tích RFM (Recency - Frequency - Monetary) giúp doanh nghiệp nhận diện nhóm khách hàng giá trị cao và có nguy cơ rời bỏ, từ đó đề xuất chiến lược giữ chân, tái kích hoạt và cá nhân hóa bán hàng, góp phần nâng cao hiệu quả marketing và tối ưu doanh thu.
 
 ## 2. Dữ liệu đầu vào
 Dữ liệu gốc gồm hơn 2400 dòng giao dịch từ datset, với các thông tin chính như:thông tin đơn hàng, sản phẩm, khác hàng, và địa chỉ
